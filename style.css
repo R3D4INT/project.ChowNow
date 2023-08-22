@@ -52,7 +52,6 @@ section:first-of-type div:first-of-type .column:first-of-type {
     color: white;
 }
 
-/* Main */
 main section div {
     display: flex;
     flex-wrap: wrap;
@@ -68,7 +67,6 @@ main section div {
     padding: var(--space-size);
 }
 
-/* Adjusted card order and flex properties */
 .card-first,
 .card-second,
 .card-third,
@@ -81,7 +79,7 @@ main section div {
 .card-fifth,
 .card-six {
     flex-grow: 1;
-    flex-basis: calc(100% - var(--space-size)); /* Equal width for the last two cards */
+    flex-basis: calc(100% - var(--space-size)); 
 }
 
 .section-card {
@@ -90,15 +88,24 @@ main section div {
     justify-content: space-between;
 }
 
-/* Adjusted order for cards 5 and 6 */
-.card-fifth {
-    order: 2; /* Change order for alternating position */
+.card-fifth{
+    order: 2;
     background-color: white;
     color: var(--secondary-color);
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .card-six {
-    order: 3; /* Change order for alternating position */
+    order: 3;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: var(--secondary-color);
 }
 
