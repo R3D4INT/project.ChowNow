@@ -45,7 +45,7 @@ section:first-of-type div:first-of-type .column:first-of-type {
     flex-shrink: 2;
     flex-basis: 22px;
     height: 420px;
-    background: url('./images/cn-client-bg.jpeg') rgba(29, 14, 21, 0.3);
+    background: url('./cn-client-bg.jpeg') rgba(29, 14, 21, 0.3);
     background-size: cover;
     background-blend-mode: multiply;
     padding: var(--space-size);
